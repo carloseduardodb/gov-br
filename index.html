@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<!---
+    Codigo produzido por Carlos Eduardo Dias Batista
+    Design da prototipação desktop feita por Gabriel Valladão (https://gabrielvalladao.com)
+    --->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOV.BR</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2f78b59cc6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+</head>
+
+<nav class="navbar-primary">
+    <ul class="items row">
+        <!--Start Responsive-->
+        <div class="burguer-menu" id="responsive-menu">
+            <div class="content-burgeur-menu" onclick="open_responsive()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="add-menu">
+            <ul>
+                <div class="location-rp">
+                    <p>Você está em: <strong>Governo do Brasil</strong></p></strong>
+                </div>
+                <li class="btn"><a href="./">Entrar<i class="fas fa-sign-in-alt"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- End Responsive -->
+
+        <div class="start">
+            <li><a class="icon" href=""><i class="fas fa-flag"></i>Brasil</a></li>
+            <li><a class="icon" href=""><i class="fas fa-adjust"></i>Contraste</a></li>
+            <li><a class="icon" href=""><i class="fas fa-universal-access"></i>Acessibilidade</a></li>
+            <li><a class="icon" href=""><i class="far fa-keyboard"></i>Teclado</a></li>
+            <li><a class="icon" href=""><i class="fas fa-american-sign-language-interpreting"></i>Libras</a></li>
+        </div>
+        <div class="middle row">
+            <li>
+                <a href="#">
+                    <i class="fas fa-plus"></i>
+                </a>
+                Aa
+                <a href="#">
+                    <i class="fas fa-minus"></i>
+                </a>
+            </li>
+        </div>
+
+        <div class="end">
+            <li><a href="">Legislação</a></li>
+            <li><a href="">Acesso á Informação</a></li>
+            <li><a href="">Fale Conosco</a></li>
+            <li><a class="icon" href=""><i class="fas fa-globe"></i>Idioma</a></li>
+        </div>
+
+    </ul>
+</nav>
+<nav class="navbar-secondary row">
+    <ul>
+        <li class="location">
+            <p>Você está em: <strong>Governo do Brasil</strong></p></strong>
+        </li>
+        <li class="logo">
+            <p>
+                <span>g</span>
+                <span>o</span>
+                <span>v</span>
+                <span> . b</span>
+                <span>r</span>
+            </p>
+        </li>
+        <li class="btn"><a href="./">Entrar<i class="fas fa-sign-in-alt"></i></a></li>
+    </ul>
+</nav>
+
+<div class="side-bar-responsive" id="sidebar">
+    <li><i class="fas fa-flag"></i> <a class="icon" href="">Brasil</a></li>
+    <li><i class="fas fa-adjust"></i><a class="icon" href="">Contraste</a></li>
+    <li><i class="fas fa-universal-access"></i><a class="icon" href="">Acessibilidade</a></li>
+    <li><i class="far fa-keyboard"></i><a class="icon" href="">Teclado</a></li>
+    <li><i class="fas fa-american-sign-language-interpreting"></i><a class="icon" href="">Libras</a></li>
+    <li><i class="fas fa-globe"></i><a class="icon" href="">Idioma</a></li>
+    <div class="separated-items">
+        <li><a href="">Legislação</a></li>
+        <li><a href="">Acesso á Informação</a></li>
+        <li><a href="">Fale Conosco</a></li>
+    </div>
+</div>
+
+<body id="corpo">
+    <section class="all-content row">
+
+        <div class="banner">
+
+        </div>
+
+        <div class="searching-filters">
+            <div class="search-and-date">
+                <div class="searching">
+                    <input placeholder="Pesquisar">
+                    <a href="./"><i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="date">
+                    <p>Quarta-feira, 4/11/2020</p>
+                </div>
+            </div>
+            <div class="space">
+            <div class="filters slider owl-carousel owl-reponsive">
+                <a class="btn" href="./">
+                    <i class="fas fa-arrow-right"></i>
+                    <div>
+                        <p>Ministério da</p>
+                        <p>Economia</p>
+                    </div>
+                </a>
+
+                <a class="btn" href="./">
+                    <i class="fas fa-arrow-right"></i>
+                    <div>
+                        <p>Ministério da</p>
+                        <p>Defesa</p>
+                    </div>
+                </a>
+
+                <a class="btn" href="./">
+                    <i class="fas fa-arrow-right"></i>
+                    <div>
+                        <p>Ministério da</p>
+                        <p>Agricultura</p>
+                    </div>
+                </a>
+
+                <a class="btn" href="./">
+                    <i class="fas fa-arrow-right"></i>
+                    <div>
+                        <p>Ministério da</p>
+                        <p>Justiça e Segurança</p>
+                    </div>
+                </a>
+
+                <a class="btn" href="./">
+                    <i class="fas fa-arrow-right"></i>
+                    <div>
+                        <p>Ministério da</p>
+                        <p>Educação</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="services">
+            <p class="title">Serviços para o <strong>Cidadão</strong></p>
+
+            <div class="services-content">
+                <a href="" class="btn">
+                    <div>
+                        <p>Combate a </p>
+                        <p>Covid-19</p>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <a href="" class="btn">
+                    <div>
+                        <p>Seguro </p>
+                        <p>Desemprego</p>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <a href="" class="btn">
+                    <div>
+                        <p>Carteira de </p>
+                        <p>Trabalho</p>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <a href="" class="btn">
+                    <div>
+                        <p>Auxilio</p>
+                        <p>Emergencial</p>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <a href="" class="btn">
+                    <div>
+                        <p>Devolver o </p>
+                        <p>Auxílio</p>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <a href="" class="btn">
+                    <div>
+                        <p>Criar sua</p>
+                        <p>Conta Digital</p>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <img src="img/receita-federal-logo.png" alt="receita federal" width="50px" height="30px">
+            <div class="end"><i></i>gov.br</div>
+        </footer>
+
+    </section>
+
+</body>
+
+</html>
+
+<script>
+
+    var status = 1;
+
+    function open_responsive() {
+
+        if (status == 0) {
+            document.getElementById('responsive-menu').setAttribute('class', 'burguer-menu');
+            document.getElementById('sidebar').setAttribute('class', 'side-bar-responsive');
+            status = 1;
+            document.getElementById('corpo').setAttribute('class', '');
+        } else if (status == 1) {
+            document.getElementById('responsive-menu').setAttribute('class', 'burguer-menu checked');
+            document.getElementById('sidebar').setAttribute('class', 'side-bar-responsive checked');
+            status = 0;
+            document.getElementById('corpo').setAttribute('class', 'scrool');
+        }
+    }
+
+    $('.slider').owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverpause: true,
+        margin: 20,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false
+            },
+            600: {
+                items: 2,
+                nav: false
+            },
+            800: {
+                items: 3,
+                nav: false
+            },
+            1000: {
+                items: 4,
+                nav: false,
+                loop: false
+            },
+            1500: {
+                items: 5,
+                nav: false,
+                loop: false
+            }
+        }
+    });
+
+</script>
