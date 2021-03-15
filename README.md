@@ -1,5 +1,6 @@
+<kbd>
 <img src="./img/project-image.png" style="border-radius: 10px">
-
+</kbd>
 <p style="font-weight: bold">Antes de começar você precisará ter instalado em sua máquina o seguite:</p>
 <ul>
     <a href="https://git-scm.com"><span style="font-weight: bold">Git:</span> https://git-scm.com</a>    
